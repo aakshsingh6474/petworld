@@ -1,6 +1,6 @@
 /* navbar */
 #top_nav{
-    background-color: #feb607 !important;
+    background-color: #084298 !important;
     padding: 0 8%;
 
 }
@@ -12,19 +12,7 @@
     font-weight: 500;
 }
 
-#searchbox{
-    background-color: #fcc302;
-    color:white;
-    border: 0px;
-    border-radius: 0;
-    position: relative;
-    left: 47px;
-    box-shadow: 5px 10px 11px 0px  #00000021;
-}
 
- #seachbox::placeholder{
-    color: white;
- }
 
 #searchbtn{
     position: relative;
@@ -104,7 +92,7 @@
 
 @media only screen and (max-width:900px){
     #bannertext h1{
-        font-size:40px;
+        font-size:35px;
     }
     
     #bannerimg img{
