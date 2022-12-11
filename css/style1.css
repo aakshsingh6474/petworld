@@ -1,6 +1,6 @@
 /* navbar */
 #top_nav{
-    background-color:#00bec9!important;
+    background-color: #00bec9!important;
     padding: 0 8%;
 
 }
@@ -13,39 +13,6 @@
 }
 
 
-
-#searchbtn{
-    position: relative;
-    z-index: 90;
-    background-color:#00bec9;
-    color: white;
-    border: 0px;
-    border-radius: 0; 
-
-} 
-
-@media only screen and (max-width: 768px){
-    #searchform{
-        margin-bottom:30px;
-        margin-top: 20px;
-        position: relative;
-        left: -20px;
-
-    }
-
-}
-
-@media only screen and (max-width: 960px){
-    #searchform{
-        margin-bottom:30px;
-        margin-top: 20px;
-        position: relative;
-        left: -20px;
-
-    }
-
-}
-
 /* banner */
 #banner{
     background-color:#fcc302;
@@ -54,7 +21,7 @@
 
 #bannertext h1{
  color: white;
- font-size:40px;
+ font-size:35px;
  margin-top:100px;
 
 }
@@ -74,20 +41,29 @@
 
 #banner-btn-2{
     color:white;
-    background-color: #00bec9;
-    border:2px solid 00bec9;
+    border:2px solid white;
     margin-left: 15px;
 }
 
 @media only screen and (max-width:1300px){
 #bannertext h1{
     /* color: white; */
-    font-size:40px;
+    font-size:35px;
     margin-top:100px;
 }
+}
+
+@media only screen and (max-width:844px){
+    #bannertext h1{
+        /* color: white; */
+        font-size:36px;
+        margin-top:100px;
+    }
+
+}
+
 #banner{
     padding-bottom: 70px;
-}
 }
 
 
@@ -102,14 +78,13 @@
 }
 
 
-@media only screen and (max-width:1300px){
-    #bannertext h1{
-        font-size:39px;
-        margin-top:100px;
-    }
 
+#banner-btn-2{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+    margin-left: 15px;
 }
-
 
 /* service*/
 
@@ -123,9 +98,10 @@
 
 #service-btn{
     color: white;
-    background-color: #00bec9;
-    border:2px solid 00bec9;
+    background-color:#00bec9;
+    border: 2px solid #00bec9;
 }
+
 
 #service-img{
     padding: 5%;
@@ -218,8 +194,9 @@
 
 
 #footer-searchbox{
-    background-color: #fcc302;
+    background-color: #d0ccbe;
     color: white;
+
     border: 0px;
     padding: 15px;
     width: 100%;
